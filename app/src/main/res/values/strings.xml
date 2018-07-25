@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MTT2</string>
+    <string name="google_maps_API_key">AIzaSyAFGzFjXgVwj9DAbSN10-K7Mtza2-HFncQ</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string name="emptyString" />
+</resources>

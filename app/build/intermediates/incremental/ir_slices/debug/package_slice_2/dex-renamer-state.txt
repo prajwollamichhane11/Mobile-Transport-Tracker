@@ -1,0 +1,4 @@
+#Tue Jul 24 18:07:39 NPT 2018
+base.0=C\:\\Users\\Dell\\Downloads\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

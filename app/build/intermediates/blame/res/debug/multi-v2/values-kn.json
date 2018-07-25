@@ -1,0 +1,147 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\MTT2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\4d1c75aeb922e379afd1ce4ae6bcbff7\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,354,556,687,800,1002,1129,1263,1387,1596,1707,1898,2031,2235,2418,2513,2602",
+                        "endColumns": "108,201,130,112,201,126,133,123,208,110,190,132,203,182,94,88,109",
+                        "endOffsets": "353,555,686,799,1001,1128,1262,1386,1595,1706,1897,2030,2234,2417,2512,2601,2711"
+                    },
+                    "to": {
+                        "startLines": "49,50,51,52,53,54,55,56,58,59,60,61,62,63,64,65,66",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4070,4183,4385,4520,4637,4839,4970,5108,5441,5650,5765,5956,6093,6297,6484,6583,6676",
+                        "endColumns": "112,201,134,116,201,130,137,127,208,114,190,136,203,186,98,92,113",
+                        "endOffsets": "4178,4380,4515,4632,4834,4965,5103,5231,5645,5760,5951,6088,6292,6479,6578,6671,6785"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-ui-2.3.0.aar\\265620c82da9b06e9fea6882fd6150ed\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,16,17,18,19,20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,189,322,457,518,576,638,710,754,796,843,924,1042,1120,1182,1258",
+                        "endLines": "5,9,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
+                        "endColumns": "14,14,14,60,57,61,71,43,41,46,80,117,77,61,75,57",
+                        "endOffsets": "184,317,452,513,571,633,705,749,791,838,919,1037,1115,1177,1253,1311"
+                    },
+                    "to": {
+                        "startLines": "2,6,10,72,74,75,76,80,81,83,84,85,88,89,90,91",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,239,372,7154,7264,7322,7384,7638,7682,7779,7826,7907,8388,8466,8528,8604",
+                        "endLines": "5,9,13,72,74,75,76,80,81,83,84,85,88,89,90,91",
+                        "endColumns": "14,14,14,60,57,61,71,43,41,46,80,117,77,61,75,57",
+                        "endOffsets": "234,367,502,7210,7317,7379,7451,7677,7719,7821,7902,8020,8461,8523,8599,8657"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\tweet-composer-2.3.0.aar\\1e29874d63b23f6f250a32d6fc723398\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,118,167,219",
+                        "endColumns": "62,48,51,54",
+                        "endOffsets": "113,162,214,269"
+                    },
+                    "to": {
+                        "startLines": "71,73,78,82",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "7091,7215,7530,7724",
+                        "endColumns": "62,48,51,54",
+                        "endOffsets": "7149,7259,7577,7774"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\14007c376adc6f3aabb33544d336140c\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,335,448,536,643,770,847,924,1006,1122,1233,1332,1445,1549,1663,1827,1927",
+                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
+                        "endOffsets": "218,330,443,531,638,765,842,919,1001,1117,1228,1327,1440,1544,1658,1822,1922,2004"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,68",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "507,625,737,850,938,1045,1172,1249,1326,1408,1524,1635,1734,1847,1951,2065,2229,6853",
+                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
+                        "endOffsets": "620,732,845,933,1040,1167,1244,1321,1403,1519,1630,1729,1842,1946,2060,2224,2324,6930"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.19.0.aar\\f623bc3cd91b39a9eadbf9c0ca778fb2\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,239,366,487,580,655,729,795,870,946,1046,1146,1223,1300,1395,1508,1574,1644,1796",
+                        "endColumns": "183,126,120,92,74,73,65,74,75,99,99,76,76,94,112,65,69,151,62",
+                        "endOffsets": "234,361,482,575,650,724,790,865,941,1041,1141,1218,1295,1390,1503,1569,1639,1791,1854"
+                    },
+                    "to": {
+                        "startLines": "31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2329,2513,2640,2761,2854,2929,3003,3069,3144,3220,3320,3420,3497,3574,3669,3782,3848,3918,6790",
+                        "endColumns": "183,126,120,92,74,73,65,74,75,99,99,76,76,94,112,65,69,151,62",
+                        "endOffsets": "2508,2635,2756,2849,2924,2998,3064,3139,3215,3315,3415,3492,3569,3664,3777,3843,3913,4065,6848"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\b5066ced11fe4054288bea09a3b08e62\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "204",
+                        "endOffsets": "451"
+                    },
+                    "to": {
+                        "startLines": "57",
+                        "startColumns": "4",
+                        "startOffsets": "5236",
+                        "endColumns": "204",
+                        "endOffsets": "5436"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\493fe8b51b714da1df4fadf5122f7bca\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "69",
+                        "startColumns": "4",
+                        "startOffsets": "6935",
+                        "endColumns": "100",
+                        "endOffsets": "7031"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\twitter-core-2.3.0.aar\\e57f6b870669930d058deac046e9b00f\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,110,184,240,519",
+                        "endColumns": "54,73,55,278,83",
+                        "endOffsets": "105,179,235,514,598"
+                    },
+                    "to": {
+                        "startLines": "70,77,79,86,87",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "7036,7456,7582,8025,8304",
+                        "endColumns": "54,73,55,278,83",
+                        "endOffsets": "7086,7525,7633,8299,8383"
+                    }
+                }
+            ]
+        }
+    ]
+}

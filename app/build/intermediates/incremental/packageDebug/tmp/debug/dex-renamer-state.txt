@@ -1,0 +1,7 @@
+#Wed Jul 25 18:04:10 NPT 2018
+base.0=C\:\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=C\:\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
