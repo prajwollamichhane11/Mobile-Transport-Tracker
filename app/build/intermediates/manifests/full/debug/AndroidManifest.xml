@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.anjelikasah.mtt2"
+    package="org.mobilett.version1"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -23,10 +23,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="org.anjelikasah.mtt2.permission.C2D_MESSAGE"
+        android:name="org.mobilett.version1.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.anjelikasah.mtt2.permission.C2D_MESSAGE" /> <!-- <permission -->
+    <uses-permission android:name="org.mobilett.version1.permission.C2D_MESSAGE" /> <!-- <permission -->
     <!-- android:name="com.anjelikasah.mtt2.permission.MAPS_RECIEVE" -->
     <!-- android:protectionLevel="signature" /> -->
     <!-- <uses-permission android:name="com.anjelikasah.mtt2.permission.MAPS_RECIEVE" /> -->
@@ -43,14 +43,14 @@
         android:name="android.support.multidex.MultiDexApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/mainlogo"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="stateVisible|adjustResize" >
-        <activity android:name="org.anjelikasah.mtt2.MainActivity" >
+        <activity android:name="org.mobilett.version1.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -58,7 +58,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.anjelikasah.mtt2.activity2"
+            android:name="org.mobilett.version1.activity2"
             android:label="@string/app_name" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -79,12 +79,12 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name="org.anjelikasah.mtt2.MapsActivity"
+            android:name="org.mobilett.version1.MapsActivity"
             android:label="@string/title_activity_maps" />
-        <activity android:name="org.anjelikasah.mtt2.workpage" />
-        <activity android:name="org.anjelikasah.mtt2.cord_details" />
-        <activity android:name="org.anjelikasah.mtt2.Bus_signin" />
-        <activity android:name="org.anjelikasah.mtt2.About" />
+        <activity android:name="org.mobilett.version1.workpage" />
+        <activity android:name="org.mobilett.version1.cord_details" />
+        <activity android:name="org.mobilett.version1.Bus_signin" />
+        <activity android:name="org.mobilett.version1.About" />
 
         <meta-data
             android:name="io.fabric.ApiKey"
@@ -150,7 +150,7 @@
         -->
         <provider
             android:name="com.facebook.internal.FacebookInitProvider"
-            android:authorities="org.anjelikasah.mtt2.FacebookInitProvider"
+            android:authorities="org.mobilett.version1.FacebookInitProvider"
             android:exported="false" />
 
         <activity
@@ -213,7 +213,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="org.anjelikasah.mtt2" />
+                <category android:name="org.mobilett.version1" />
             </intent-filter>
         </receiver>
         <!--
@@ -230,7 +230,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="org.anjelikasah.mtt2.firebaseinitprovider"
+            android:authorities="org.mobilett.version1.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

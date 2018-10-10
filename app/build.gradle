@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "org.anjelikasah.mtt2"
+        applicationId "org.mobilett.version1"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1

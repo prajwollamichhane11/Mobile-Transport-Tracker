@@ -1,4 +1,4 @@
-#Tue Jul 24 17:18:28 NPT 2018
-base.0=C\:\\Users\\Dell\\Downloads\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Jul 26 16:56:15 NPT 2018
+base.0=C\:\\Users\\Kamlesh\\Desktop\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\60
 path.0=classes.dex
 renamed.0=classes.dex

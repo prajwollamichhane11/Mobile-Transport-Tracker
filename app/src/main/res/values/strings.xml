@@ -1,9 +1,11 @@
 <resources>
-    <string name="app_name">MTT2</string>
+    <string name="app_name">MTT</string>
     <string name="google_maps_API_key">AIzaSyAFGzFjXgVwj9DAbSN10-K7Mtza2-HFncQ</string>
     <string name="title_activity_maps">Map</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="message">\nMessage: </string>
 
     <string name="emptyString" />
+    <string name="satellite_view">satellite view</string>
 </resources>

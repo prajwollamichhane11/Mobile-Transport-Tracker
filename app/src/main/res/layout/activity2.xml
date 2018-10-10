@@ -6,6 +6,30 @@
     android:background="@drawable/background2"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <TextView
+        android:id="@+id/route"
+        android:layout_width="87dp"
+        android:layout_height="51dp"
+        android:layout_alignBaseline="@+id/croute"
+        android:layout_alignStart="@+id/longitude"
+        android:text="Route"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/croute"
+        style="@style/buttonstyle.background"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/logout"
+        android:layout_below="@+id/confirmpasword"
+        android:background="@drawable/textstyle"
+        android:drawableLeft="@mipmap/route"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffffff" />
+
     <Button
         android:id="@+id/logout"
         style="@style/buttonstyle.background"
@@ -21,17 +45,17 @@
     <EditText
         android:id="@+id/oname"
         style="@style/buttonstyle.background"
-        android:textColor="#ffffff"
         android:layout_width="200dp"
         android:layout_height="40dp"
+        android:layout_alignEnd="@+id/logout"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/button_add"
         android:layout_marginTop="74dp"
         android:background="@drawable/textstyle"
         android:drawableLeft="@mipmap/user"
         android:ems="10"
         android:inputType="textPersonName"
-        android:paddingRight="15dp" />
+        android:paddingRight="15dp"
+        android:textColor="#ffffff" />
 
     <TextView
         android:id="@+id/longitude"
@@ -40,13 +64,13 @@
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/cemail"
         android:layout_marginStart="29dp"
-        android:text="Email Address"
+        android:text="PIN"
         android:textSize="18sp" />
 
     <EditText
         android:id="@+id/cemail"
         style="@style/buttonstyle.background"
-        android:drawableLeft="@mipmap/email"
+        android:drawableLeft="@mipmap/pin"
         android:textColor="#ffffff"
         android:layout_width="200dp"
         android:layout_height="40dp"
@@ -56,7 +80,7 @@
         android:background="@drawable/textstyle"
         android:ems="10"
         android:inputType="textPersonName"
-        android:paddingRight="15dp" />
+         />
 
     <TextView
         android:id="@+id/latitude"
@@ -73,13 +97,12 @@
         android:textColor="#ffffff"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:drawableLeft="@drawable/bus"
+        android:drawableLeft="@mipmap/bus"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/oname"
         android:layout_marginTop="142dp"
         android:background="@drawable/textstyle"
         android:ems="10"
-        android:paddingLeft="12dp"
         android:inputType="textPersonName"
         android:paddingRight="15dp" />
 
@@ -99,7 +122,7 @@
         android:textColor="#ffffff"
         android:layout_width="200dp"
         android:layout_height="40dp"
-        android:drawableLeft="@mipmap/pass"
+        android:drawableLeft="@mipmap/cpass"
         android:layout_alignParentTop="true"
         android:layout_alignStart="@+id/oname"
         android:layout_marginTop="282dp"
@@ -119,7 +142,7 @@
     <EditText
         android:id="@+id/cconfirmpassword"
         style="@style/buttonstyle.background"
-        android:drawableLeft="@mipmap/cpass"
+        android:drawableLeft="@mipmap/pass"
         android:textColor="#ffffff"
         android:layout_width="200dp"
         android:layout_height="40dp"
@@ -135,35 +158,14 @@
         android:id="@+id/button_add"
         style="@style/buttonstyle.background"
         android:layout_width="wrap_content"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/confirmpasword"
+        android:layout_below="@+id/croute"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
         android:background="@drawable/buttonstyle"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
         android:text="CREATE ACCOUNT" />
-
-    <Button
-        android:id="@+id/button_view"
-        style="@style/buttonstyle.background"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/button_add"
-        android:layout_marginEnd="23dp"
-        android:background="@drawable/buttonstyle"
-        android:text="View" />
-
-    <Button
-        android:id="@+id/button_update"
-        style="@style/buttonstyle.background"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/latitude"
-        android:layout_alignTop="@+id/button_add"
-        android:background="@drawable/buttonstyle"
-        android:text="Update" />
 
     <TextView
         android:id="@+id/bus"
@@ -173,19 +175,6 @@
         android:layout_alignTop="@+id/oname"
         android:text="Owner's Name"
         android:textSize="18sp" />
-
-    <Button
-        android:id="@+id/button_delete"
-        style="@style/buttonstyle.background"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="490dp"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/buttonstyle"
-        android:paddingRight="10dp"
-        android:paddingLeft="10dp"
-        android:text="DELETE ACCOUNT" />
 
 
 </RelativeLayout>

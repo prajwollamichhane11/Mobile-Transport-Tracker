@@ -1,23 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/baa"
+    >
 
     <Button
         android:id="@+id/button_location"
+        style="@style/buttonstyle.background"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="146dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:text="GET LOCATION" />
 
     <TextView
         android:id="@+id/text_location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:textSize="16dp"/>
+        android:layout_marginTop="153dp"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/logout1"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginTop="18dp"
+        android:text="LOGOUT" />
+
+    <Button
+        android:id="@+id/gotomap"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/logout1"
+        android:layout_marginStart="40dp"
+        android:text="Go To Map" />
+
+    <Button
+        android:id="@+id/logout"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="turn off bus location" />
+
+    <EditText
+        android:id="@+id/update_route"
+        style="@style/buttonstyle.background"
+        android:layout_width="292dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/delmsg"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textstyle"
+        android:drawableLeft="@mipmap/route"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Update Route"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/msg"
+        style="@style/buttonstyle.background"
+        android:layout_width="292dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logout"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/textstyle"
+        android:drawableLeft="@mipmap/message"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:hint="Enter message for Passenger"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/sendmsg"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/update_route"
+        android:layout_alignTop="@+id/delmsg"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/button_text_send" />
+
+    <Button
+        android:id="@+id/btn_update_route"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_route"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="15dp"
+        android:text="Update Route" />
+
+    <Button
+        android:id="@+id/delmsg"
+        style="@style/buttonstyle.background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/msg"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonstyle"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="delete message" />
 
 </RelativeLayout>

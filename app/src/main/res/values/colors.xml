@@ -7,4 +7,6 @@
     <color name="back">#BCCED3</color>
     <color name="nav">#F6F7F0</color>
     <color name="darkgrey">#616160</color>
+    <color name="background_color">#A3BDBA</color>
+
 </resources>

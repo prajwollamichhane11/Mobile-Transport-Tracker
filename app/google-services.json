@@ -1,103 +1,35 @@
 {
   "project_info": {
-    "project_number": "222851468844",
-    "firebase_url": "https://mtt2-500d1.firebaseio.com",
-    "project_id": "mtt2-500d1",
-    "storage_bucket": "mtt2-500d1.appspot.com"
+    "project_number": "150541578176",
+    "firebase_url": "https://mobilett-8e1d5.firebaseio.com",
+    "project_id": "mobilett-8e1d5",
+    "storage_bucket": "mobilett-8e1d5.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:222851468844:android:5ebb6e4fcd35dbec",
+        "mobilesdk_app_id": "1:150541578176:android:73f108e4cca6aee8",
         "android_client_info": {
-          "package_name": "com.anjelikasah.mtt2"
+          "package_name": "org.mobilett.version1"
         }
       },
       "oauth_client": [
         {
-          "client_id": "222851468844-3d5nqv574tur28dqg32v63vqlo0bj44j.apps.googleusercontent.com",
+          "client_id": "150541578176-o7hl6tcsb586b1aqhane1nti3oi099s5.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.anjelikasah.mtt2",
-            "certificate_hash": "f61bd99a7cab84f78196786bafb0b71144d5171e"
-          }
-        },
-        {
-          "client_id": "222851468844-cd8c1sve559dlse7k9sbtugaado6u9qn.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyA2ErDqraVLAn2KneFpCStgqAN13--qXaA"
-        }
-      ],
-      "services": {
-        "analytics_service": {
-          "status": 1
-        },
-        "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "222851468844-cd8c1sve559dlse7k9sbtugaado6u9qn.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        },
-        "ads_service": {
-          "status": 2
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:222851468844:android:f275d207504661de",
-        "android_client_info": {
-          "package_name": "org.anjelikasah.mtt2"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "222851468844-jovhv23po75bgkhhdc8r480v00be8f65.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.anjelikasah.mtt2",
-            "certificate_hash": "306340a957dc90892fbf965596d3107594a3f7d4"
-          }
-        },
-        {
-          "client_id": "222851468844-ubkmv77aptnoi3earkr28badtktccu9l.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.anjelikasah.mtt2",
-            "certificate_hash": "f61bd99a7cab84f78196786bafb0b71144d5171e"
-          }
-        },
-        {
-          "client_id": "222851468844-9832p77vvvqdei342hg1t9l5j1m5f3fs.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.anjelikasah.mtt2",
+            "package_name": "org.mobilett.version1",
             "certificate_hash": "6a125d125d7997679810b09a6493b25841238bd5"
           }
         },
         {
-          "client_id": "222851468844-a9ofqanqe3k734l01m49ct2fe03nohvt.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "org.anjelikasah.mtt2",
-            "certificate_hash": "6703ef04ab6f7ab99c68de16cf98ae61e77c640d"
-          }
-        },
-        {
-          "client_id": "222851468844-cd8c1sve559dlse7k9sbtugaado6u9qn.apps.googleusercontent.com",
+          "client_id": "150541578176-51ulblt1fsijtpgdntti8mf0hk4tb1cr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA2ErDqraVLAn2KneFpCStgqAN13--qXaA"
+          "current_key": "AIzaSyDejNIzqOK9D5Ozvg7Hl6_Fipgl3GuzuOw"
         }
       ],
       "services": {
@@ -108,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "222851468844-cd8c1sve559dlse7k9sbtugaado6u9qn.apps.googleusercontent.com",
+              "client_id": "150541578176-51ulblt1fsijtpgdntti8mf0hk4tb1cr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

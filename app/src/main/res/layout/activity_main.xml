@@ -3,42 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background">
+    android:background="@drawable/baa">
 
     <ImageView
         android:layout_width="285dp"
         android:layout_height="288dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="55dp"
         android:src="@drawable/logo" />
 
 
     <Button
         android:id="@+id/map"
+        android:layout_height="45dp"
         style="@style/buttonstyle.background"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="183dp"
-        android:background="@drawable/buttonstyle"
-        android:text="user sign in" />
+        android:layout_marginBottom="215dp"
+        android:background="#B6C6BF"
+        android:text="go to map" />
 
     <Button
         android:id="@+id/bus_signin"
+        android:layout_height="45dp"
         style="@style/buttonstyle.background"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="109dp"
-        android:background="@drawable/buttonstyle"
+        android:layout_marginBottom="157dp"
+        android:background="#B6C6BF"
         android:text="bus sign in" />
-
-    <Button
-        android:id="@+id/sign_in_as_bus"
-        style="@style/buttonstyle.background"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/buttonstyle"
-        android:text="Sign in as Bus" />
 
 
 </RelativeLayout>
