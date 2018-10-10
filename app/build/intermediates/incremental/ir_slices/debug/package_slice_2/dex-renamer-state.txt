@@ -1,4 +1,0 @@
-#Thu Jul 26 17:40:42 NPT 2018
-base.0=C\:\\Users\\Kamlesh\\Desktop\\MTT2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\62
-path.0=classes.dex
-renamed.0=classes.dex

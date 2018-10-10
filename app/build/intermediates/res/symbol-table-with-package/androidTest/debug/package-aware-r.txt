@@ -1,1 +1,0 @@
-org.anjelikasah.mtt2.test

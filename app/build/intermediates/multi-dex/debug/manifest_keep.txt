@@ -1,3 +1,0 @@
-# Referenced at C:\Users\admin\Downloads\fandl\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:42
--keep class android.support.multidex.MultiDexApplication { <init>(...); }
-
