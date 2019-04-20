@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\prajw\\OneDrive\\Documents\\nes\\MTT2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-es-rES\\values-es-rES.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\prajw\\.gradle\\caches\\transforms-1\\files-1.1\\facebook-android-sdk-4.19.0.aar\\f623bc3cd91b39a9eadbf9c0ca778fb2\\res\\values-es-rES\\values-es-rES.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,215,327,464,562,630,702,761,835,917,1014,1112,1184,1256,1347,1452,1517,1586,1730",
+                        "endColumns": "159,111,136,97,67,71,58,73,81,96,97,71,71,90,104,64,68,143,61",
+                        "endOffsets": "210,322,459,557,625,697,756,830,912,1009,1107,1179,1251,1342,1447,1512,1581,1725,1787"
+                    }
+                }
+            ]
+        }
+    ]
+}

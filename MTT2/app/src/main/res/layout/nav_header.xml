@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@drawable/nav_header"
+    android:id="@+id/nav_header"
+    >
+
+    <TextView
+        android:id="@+id/TVusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/emptyString"
+        android:textColor="@color/com_facebook_button_login_silver_background_color"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
